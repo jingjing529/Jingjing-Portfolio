@@ -8,7 +8,9 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faWeixin
 } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -115,32 +117,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -155,12 +137,32 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
+								href={INFO.socials.weixin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faWeixin}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={`tel: +1${INFO.socials.phone}`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faPhone}
 									className="homepage-social-icon"
 								/>
 							</a>

@@ -1,24 +1,23 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Jingjing's Portfolio",
+		name: "Jingjing Wang",
+		email: "jingjingwang.work01@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		phone: "9495724056",
+		weixin: "1448471949",
+		github: "https://github.com/jingjing529",
+		linkedin: "https://www.linkedin.com/in/jingjing-w/",
+		instagram: "https://instagram.com/jingjing.w_",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack | Front-End developer.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm Jingjing Wang, a software developer specializing in full-stack solutions using .NET Core, Angular, React, SQL, Python, and C++. I build reliable, user-friendly applications and enjoy turning complex requirements into intuitive, maintainable systems. Proactive and detail-oriented, I thrive in fast-paced, collaborative environments.",
 	},
 
 	about: {
