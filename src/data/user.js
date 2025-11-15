@@ -15,15 +15,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack | Front-End developer.",
+		title: "Hi, I'm Jingjing Wang 👋",
 		description:
-			"I'm Jingjing Wang, a software developer specializing in full-stack solutions using .NET Core, Angular, React, SQL, Python, and C++. I build reliable, user-friendly applications and enjoy turning complex requirements into intuitive, maintainable systems. Proactive and detail-oriented, I thrive in fast-paced, collaborative environments.",
+"A full-stack developer who turns complex requirements into intuitive, reusable components. Skilled in HTML, CSS, JavaScript and TypeScript, I blend creativity with engineering to build fast, accessible, and user-friendly applications that feel as good as they look."
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: ".",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			".",
 	},
 
 	articles: {
@@ -34,46 +34,58 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Psyche - Journey to the Metal World",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"An immersive 3D web experience, accessed via QR code, to educate users about NASA’s Psyche mission.",
+			hero: "./psyche.jpeg",
+			logo: [
+				"https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/typescript/typescript.png",
+			],
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://tungsten-01c-ar-xr-uci.web.app/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Zotfit",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A dietary guidance mobile app for UCI students.",
+			hero: "./zotfit.png",
+			logo: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"],
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 3",
+			title: "Wallamovie.Store",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A movie retail platform handling over 50,000 entries.",
+			hero: "./wallamovie.png",
+			logo: ["https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png"],
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
-		{
-			title: "Project 4",
+				{
+			title: "Time 2 Work",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Time 2 Work is a scheduling web application designed to help users efficiently manage their work hours and breaks.",
+			hero: "./t2w.png",
+			logo: ["https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/typescript/typescript.png",],
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 5",
+			title: "SEC-UCI-Advancement",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"UCI Advancement is a database for managing wealthy alumni information for UCI advancement to reach out to ask for donation.",
+			hero: "./SEC.png",
+			logo: ["https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/typescript/typescript.png",],
+			linkText: "View Project",
+			link: "https://github.com",
+		},		{
+			title: "BondiTech's Official Website",
+			description:
+				"I rebuilt BondiTech's website with the idea of improving SEO and increase hits.",
+			hero: "./bd.png",
+			logo: ["https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/typescript/typescript.png",],
 			linkText: "View Project",
 			link: "https://github.com",
 		},

@@ -3,9 +3,9 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
-import "./styles/education.css";
+import "./styles/works.css";
 
-const Works = () => {
+const Education = () => {
 	return (
 		<div className="works">
 			<Card
@@ -56,4 +56,4 @@ const Works = () => {
 	);
 };
 
-export default Works;
+export default Education;

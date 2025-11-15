@@ -70,6 +70,9 @@ const Homepage = () => {
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
 
+	const [showWeixin, setShowWeixin] = useState(false);
+	const weixinIconRef = React.useRef(null);
+
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -136,16 +139,65 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
-								href={INFO.socials.weixin}
-								target="_blank"
-								rel="noreferrer"
+							<span
+								ref={weixinIconRef}
+								style={{ position: "relative", display: "inline-block" }}
 							>
-								<FontAwesomeIcon
-									icon={faWeixin}
-									className="homepage-social-icon"
-								/>
-							</a>
+								<a
+									href="#"
+									onClick={e => {
+										e.preventDefault();
+										setShowWeixin(v => !v);
+									}}
+									tabIndex={0}
+									onBlur={() => setShowWeixin(false)}
+								>
+									<FontAwesomeIcon
+										icon={faWeixin}
+										className="homepage-social-icon"
+									/>
+								</a>
+								{showWeixin && (
+									<div
+										style={{
+											position: "absolute",
+											top: "110%",
+											left: "50%",
+											transform: "translateX(-50%)",
+											background: "#fff",
+											border: "1px solid #ddd",
+											borderRadius: 8,
+											boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+											padding: 8,
+											zIndex: 1000,
+											minWidth: 120,
+											textAlign: "center"
+										}}
+									>
+										<div
+											style={{
+												position: "absolute",
+												top: -10,
+												left: "50%",
+												transform: "translateX(-50%)",
+												width: 0,
+												height: 0,
+												borderLeft: "8px solid transparent",
+												borderRight: "8px solid transparent",
+												borderBottom: "10px solid #fff",
+												filter: "drop-shadow(0 -1px 1px #ddd)"
+											}}
+										/>
+										<img
+											src={INFO.socials.weixinQR || "/weixin-qr.jpg"}
+											alt="Weixin QR"
+											style={{ width: 100, height: 100, objectFit: "cover", borderRadius: 4 }}
+										/>
+										<div style={{ fontSize: 12, marginTop: 4, color: "#333" }}>Scan to add me 💗
+										</div>
+									</div>
+								)}
+							</span>
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
