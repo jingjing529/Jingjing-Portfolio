@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jingjing-Portfolio/static/css/main.bf7b0421.css",
+    "main.js": "/Jingjing-Portfolio/static/js/main.9c098b4a.js",
+    "static/js/787.512dd3f2.chunk.js": "/Jingjing-Portfolio/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/Jingjing-Portfolio/index.html",
+    "main.bf7b0421.css.map": "/Jingjing-Portfolio/static/css/main.bf7b0421.css.map",
+    "main.9c098b4a.js.map": "/Jingjing-Portfolio/static/js/main.9c098b4a.js.map",
+    "787.512dd3f2.chunk.js.map": "/Jingjing-Portfolio/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf7b0421.css",
+    "static/js/main.9c098b4a.js"
+  ]
+}
